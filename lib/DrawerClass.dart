@@ -36,11 +36,20 @@ class _DrawerClassState extends State<DrawerClass> {
               ),
               color: Colors.blue,
             ),
-            child: Text(
-              'All Patient\'s',
-              style: TextStyle(
-                color: Colors.white,
-                fontSize: 24,
+            child: Center(
+              child: ListTile(
+                leading: Icon(
+                  Icons.subject,
+                  size: 32,
+                  color: Colors.white,
+                ),
+                title: Text(
+                  'All Patient\'s',
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 24,
+                  ),
+                ),
               ),
             ),
           ),
